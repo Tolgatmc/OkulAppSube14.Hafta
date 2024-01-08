@@ -6,7 +6,7 @@ using System.Data;
 
 namespace DAL
 {
-    public class Helper
+    public class Helper : IDisposeable
     {
         public void Dispose()
         {
