@@ -160,7 +160,6 @@
             this.Controls.Add(this.grpOgrenci);
             this.Name = "frmOgrKayit";
             this.Text = "Öğrenci Kayıt İşlemleri";
-            this.Load += new System.EventHandler(this.frmOgrKayit_Load);
             this.grpOgrenci.ResumeLayout(false);
             this.grpOgrenci.PerformLayout();
             this.ResumeLayout(false);
